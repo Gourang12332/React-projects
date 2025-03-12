@@ -1,0 +1,13 @@
+body{
+  background-color: whitesmoke;
+}
+#root{
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+p{
+  color: white;
+}

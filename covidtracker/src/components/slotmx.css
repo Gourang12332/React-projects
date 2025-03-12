@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.scroller{
+    height: 200px;
+    width: 90px;
+    border: 1px solid black;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.down{
+    height: 40px;
+}
+.mid{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 120px;
+}
+.downstr{
+    margin-left: 10px;
+    margin-top: 4px;
+}

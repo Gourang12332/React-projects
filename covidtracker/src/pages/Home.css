@@ -1,0 +1,44 @@
+main {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+}
+.intro {
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 10px;
+}
+.herosection{
+    margin: 2px;
+}
+.welcome {
+    display: flex;                /* Align the items horizontally */
+    justify-content: space-between;  /* Distribute space evenly */
+    align-items: center;          /* Vertically align the content */
+    padding: 1rem;                /* Add padding to the container */
+}
+
+.welcome .left, 
+.welcome .right {
+    flex-basis: 50%;              /* Each will take up 50% of the width */
+    padding: 1rem;                /* Add padding for spacing */
+}
+
+.welcome .left {
+    max-width: 50%;               /* Ensure the carousel doesn’t take more than 50% */
+}
+
+.welcome .right {
+    max-width: 50%;               /* Ensure the text doesn’t take more than 50% */
+}
+
+ p{
+    color: white;
+}
+
+.events{
+    margin : 2px;
+}

@@ -1,0 +1,28 @@
+main {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+.teamheroes{
+    margin: 4px;
+}
+
+.intrototeam {
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 10px;
+}
+.teamcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.footer{
+    margin-bottom: 0px  ;
+}
